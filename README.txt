@@ -1,5 +1,5 @@
-Command line to compile program: {cslinux1:~} javac Project2.java
-Command line to run program: {cslinux1:~} java Project2
+Command line to compile program: javac Project2.java
+Command line to run program: java Project2
 This is assuming that the .java file is in your main directory (as it
 was in mine) and not in any subfolders.
 
