@@ -1,8 +1,10 @@
 # OS-DMV-Office-Multithreading
-Project Purpose
+# Project Purpose
+
 This project emphasized the use of semaphores in coordinating multiple threads. The project simulated the operation of the Department of Motor Vehicles office, with customers, an Information Desk, an announcer, and two agents. The implementation of the project is similar to the barbershop example, which consists of customers, three barbers, a sofa, and three barber chairs. Applying wait and signals with semaphores is beneficial in providing mutual exclusion between threads and in coordinating the actions of the threads. 
 
-My Experience
+# My Experience
+
 This project did bring difficulties, specifically in the beginning stages and in debugging. In the beginning, I created a basic framework for the simulation with pseudocode that consisted of waits and signals. However, as I began my implementation, I realized I needed to revisit the framework to modify and add new waits/signals to it. Hence, the beginning design stages of the project were more iterative. I began the project by starting with a small simulation of only four customers and the Information Desk. After successfully implementing the small simulation, I increased the customer number to 20 and began working on the Announcer run function. At this stage, I struggled with certain bugs and errors in my output, such as the queue size exceeding four and customers being added to the queue incorrectly. I then revised my framework again and spent more time designing the Announcer run function and its interactions with the Customer threads. I evaluated the waits and signals in my design to check if they were in alignment with each other. The considerable time spent on the design then allowed the implementation to become easier and it remediated the previous errors. 
 This project allowed me to learn more about coordination and mutual exclusion between threads and how semaphores can be useful in achieving this. The project also solidified my understanding of the barbershop example as I repeatedly referenced it during the design and implementation stages. By working hands-on on a project like the barbershop example, I can understand the reasoning behind the use of the same semaphores for mutual exclusion, semaphore arrays, and maintaining a specific capacity for a certain action. 
 ![image](https://user-images.githubusercontent.com/71106952/226031632-af717ed4-6453-4cc7-a3a9-a039b6ed14d5.png)
